@@ -1,0 +1,377 @@
+{
+  "tech": {
+    "react": {
+      "name": "React",
+      "logo": "react.svg",
+      "website": "https://github.com/facebook/react",
+      "displayInTopList": true
+    },
+    "graphql": {
+      "name": "GraphQL",
+      "logo": "graphql.svg",
+      "website": "https://graphql.org/",
+      "displayInTopList": true
+    },
+    "gatsby": {
+      "name": "Gatsby",
+      "logo": "gatsby.svg",
+      "website": "https://www.gatsbyjs.org/",
+      "displayInTopList": true
+    },
+    "antd": {
+      "name": "Ant Design",
+      "logo": "ant-design.svg",
+      "website": "https://ant.design/",
+      "displayInTopList": true
+    }
+  },
+  "skills": {
+    "soft": [
+      "Scrum",
+      "Kanban",
+      "XP",
+      "Change Management",
+      "Employee Benefits",
+      "UK Energy Industry",
+      "ETRM",
+      "Team building / Leadership",
+      "Decision making",
+      "Communication",
+      "Integrity"
+    ],
+    "tech": [
+      "C#",
+      "typescript",
+      "R",
+      "Python",
+      "Gatsby",
+      "AngularJS",
+      "Moq",
+      "NUnit",
+      "Machine Learning",
+      "TensorFlow",
+      "Keras",
+      "MSSQL",
+      "MongoDB",
+      "TFS",
+      "Git",
+      "Jenkins"
+    ],
+    "otherTech": [
+      "Angular.js",
+      "AWS",
+      "REST",
+      "SOLID",
+      "Deep Neural Networks",
+      "Convolutional Neural Networks",
+      "Ant Design",
+      "TDD",
+      "FxCop",
+      "CMMI Level 5",
+      "UML",
+      "DevOps",
+      "Perforce",
+      "CruiseControl",
+      "JIRA",
+      "CI & CD",
+      ".NET Framework",
+      "Microsoft Bot Framework",
+      "IoT"
+    ],
+    "otherSoft": [
+      "Scheduling",
+      "Risk Management",
+      "Critical Thinking",
+      "Problem Solving",
+      "Task Management",
+      "Requirements Analysis"
+    ]
+  },
+  "workExperience": [
+    {
+      "company": {
+        "name": "Thomsons Online Benefit (Mercer)",
+        "logoHeight": 20,
+        "logo": "mercer.png",
+        "period": "December 2016 - now (Singapore)"
+      },
+      "projects": [
+        {
+          "name": "Darwin",
+          "logoHeight": 30,
+          "logo": "Darwin.svg",
+          "role": "Senior Software Engineer",
+          "description": "Best in market employee benefits management and engagement platform. Working on various modules of the product.",
+          "stack": {
+            "me": [
+              "C#",
+              ".Net",
+              "typescript",
+              "Angular",
+              "Mongo",
+              "SQL",
+              "Git",
+              "TFS",
+              "Jenkins"
+            ],
+            "all": [
+              "Scrum",
+              "Kanban",
+              "Devops tooling"
+            ]
+          },
+          "achievements": [
+            "Design solutions",
+            "Code complex & high-performance programs using different frameworks",
+            "Tooling automated migrations",
+            "Lead team on complex project",
+            "Work Spanned backend & frontend",
+            "Conduct code reviews and knowledge sharing",
+            "Validated module requirements",
+            "Communicate on regular basis with all stakeholders"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Thomsons Online Benefit",
+        "logoHeight": 35,
+        "logo": "Thomsons.svg",
+        "period": "April 2014 – November 2016 (London, UK)"
+      },
+      "projects": [
+        {
+          "name": "Darwin",
+          "logoHeight": 30,
+          "logo": "Darwin.svg",
+          "role": "Senior Software Engineer",
+          "description": "Working majorly on UK Pension AutoEnrollment module. Working on various modules of the product.",
+          "stack": {
+            "me": [
+              "C#",
+              ".Net",
+              "typescript",
+              "Angular",
+              "Moq",
+              "SQL",
+              "TFS",
+              "Jenkins"
+            ],
+            "all": [
+              "Scrum"
+            ]
+          },
+          "achievements": [
+            "Designing, & building backend services",
+            "Successfully and predictably delivering of the modules",
+            "Sharing new ideas within team and implemented",
+            "Created tools for automated release process",
+            "Played role of scrum master",
+            "Was proactive based on an understanding of the business, not just tech requirements",
+            "Working majorly on UK Pension AutoEnrollment module"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Infosys",
+        "logoHeight": 40,
+        "logo": "Infosys.png",
+        "period": "Sep 2008 – Mar 2014 (London, UK)"
+      },
+      "projects": [
+        {
+          "name": "BP",
+          "logoHeight": 70,
+          "logo": "BP.svg",
+          "role": "Technology Lead",
+          "description": "Worked on various technologies and projects across teams. Learned about UK and European energy markets, energy trading concepts",
+          "stack": {
+            "me": [
+              "C#",
+              "asp.Net",
+              "TFS",
+              "Cruise Control",
+              "Perforce",
+              "Configuration Controller",
+              "ETRM",
+              "ITIL",
+              "Cost estimation"
+            ],
+            "all": [
+              "Leading teams",
+              "Mentoring",
+              "Waterfall",
+              "RAD",
+              "Extreme Programming"
+            ]
+          },
+          "achievements": [
+            "Prototyping, Designing, testing systems",
+            "Building CI/CD pipeline for various applications",
+            "Working on high fidelity Energy Trading systems",
+            "Leading small teams, Mentoring, Defining Development processes",
+            "Learning UK Energy, ETRM & ship chartering domains"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Infosys",
+        "logoHeight": 40,
+        "logo": "Infosys.png",
+        "period": "Aug 2005 – Sep 2008 (Bangalore, India)"
+      },
+      "projects": [
+        {
+          "name": "BP",
+          "logoHeight": 70,
+          "logo": "BP.svg",
+          "role": "Software Engineer",
+          "description": "Started carrer with Infosys and worked on projects on Shipping domain primarily with BP",
+          "stack": {
+            "me": [
+              "C#",
+              "asp.Net",
+              "Win forms",
+              "Cruise Control",
+              "Perforce"
+            ],
+            "all": [
+              "Waterfall"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Deep Neural Network - Transfer learning - Car Parking",
+      "description": "Using DNN, the project is to build and train a model or parking space is full or empty.",
+      "builtWith": [
+        "Python",
+        "Tensorflow",
+        "Notebook"
+      ],
+      "link": ""
+    },
+    {
+      "name": "Stocks watch dashboard",
+      "description": "Build a stocks watch dashboard using R and shiny with an aim to learn new skill.",
+      "builtWith": [
+        "R",
+        "Shiny"
+      ],
+      "link": "",
+      "sourceCode": "https://github.com/"
+    },
+    {
+      "name": "Smart Gardening & Home Automation",
+      "description": "Smart Gardening system using microcontroller and relay to control electric submersible motor and deployed on AWS. Along with it various POCs using Node-Red & mqtt",
+      "builtWith": [
+        "ESP32",
+        "Arduino",
+        "Raspberry Pi",
+        "Node-RED",
+        "Python",
+        "AWS"
+      ],
+      "link": "https://xxx.com",
+      "sourceCode": "https://github.com/xxx/gatsby-starter-blog-and-cv"
+    },
+    {
+      "name": "Portfolio",
+      "description": "This is with purpose to have a decent portfolio online and to explore tech",
+      "builtWith": [
+        "Gatsby",
+        "React",
+        "Netlify"
+      ],
+      "link": "",
+      "sourceCode": "https://github.com/"
+    },
+    {
+      "name": "Build and deploy WordPress site",
+      "description": "Building live site for a private jet firm based out of Florida (US) with global operations.",
+      "builtWith": [
+        "Wordpress"
+      ],
+      "link": "",
+      "sourceCode": "https://github.com/"
+    }
+  ],
+  "education": [
+    {
+      "place": "Uttar Pradesh Technical University (UPTU), India",
+      "period": "2000 - 2004",
+      "degree": "Bachelor's Degree"
+    }
+  ],
+  "certificates": [
+    {
+      "place": "Coursera",
+      "logo": "stanford-online.png",
+      "logoHeight": 60,
+      "period": "2019",
+      "description": [
+        "Machine Learing online certificate.",
+        "Main topics: Parametric & Non-parametric algorithms / SVM / Clustering / Dimensionality reduction / Recommender systems / Bias & variance theory"
+      ]
+    },
+    {
+      "place": "SGInnovate, Singapore",
+      "logo": "sginnovate.png",
+      "logoHeight": 100,
+      "period": "2019",
+      "description": [
+        "Deep Learning Developer, I built and trained model to predict if Car Park is full or empty using DNN and TL.",
+        "Main topics: DNN / TL / tensorflow / Notebook / Python"
+      ]
+    },
+    {
+      "place": "Scrum Alliance, London",
+      "logo": "scrumalliance.jpg",
+      "logoHeight": 85,
+      "period": "2014",
+      "description": [
+        "Certified Scrum Master certificate"
+      ]
+    },
+    {
+      "place": "ITIL Foundation, London",
+      "logo": "axelos.webp",
+      "logoHeight": 30,
+      "period": "2012",
+      "description": [
+        "Axelos ITIL Foundation Certificate, certified by EXIN"
+      ]
+    },
+    {
+      "place": "Online",
+      "logo": "pluralsight.png",
+      "logoHeight": 40,
+      "period": "2020",
+      "description": [
+        "Defining Project Scope and Managing Resources",
+        "Android for .NET Developers",
+        "Angular JS",
+        "Bootstrap 3",
+        "Data Analysis with Shiny: R Playbook",
+        "Intro to Node JS",
+        "Introduction to the .NET Compiler Platform",
+        "Managing Python Packages and Virtual Environments",
+        "Python - Beyond the basics",
+        "Python Best Practices for Code Quality",
+        "Python Fundamentals",
+        "Python: Variables, Data Types, and Conditionals",
+        "Real Time web dashboards with highcharts",
+        "TensorFlow: Getting Started",
+        "Unit Testing with Python"
+      ]
+    }
+  ]
+}
