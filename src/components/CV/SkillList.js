@@ -3,7 +3,7 @@ import { Card, Row, Col, Tag } from 'antd'
 import data from './data.json'
 
 const SkillList = () => (
-  <div className="rounded-lg">
+  <div id="techstack" className="rounded-lg">
     <Row type="flex" justify="space-around">
       <Col span={10}>
         <h3 className="text-center ml-10 mt-10 mb-5">Tech Stack</h3>

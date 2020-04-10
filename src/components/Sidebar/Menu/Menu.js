@@ -21,7 +21,7 @@ const Menu = ({ menu }) => (
         <li>
           <span className="hide-mobile">
             <Button ghost className="border-0 pl-0 hover:border-blue-700" icon={<FilePdfOutlined />}>
-              <a href="/cv.pdf" target="_blank" style={{ color: "white" }} className="no-print"> Download CV</a>
+              <a href="/AmitSingh_CV.pdf" target="_blank" style={{ color: "white" }} className="no-print"> Download CV</a>
             </Button>
           </span>
         </li>
