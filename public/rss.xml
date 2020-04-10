@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Portfolio by Amit Singh]]></title><description><![CDATA[Software Developer. Learner.]]></description><link>https://xxx.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 10 Apr 2020 11:59:24 GMT</lastBuildDate><item><title><![CDATA[Dummy title]]></title><description><![CDATA[You know, this is dummy.]]></description><link>https://xxx.com/posts/dummy-post</link><guid isPermaLink="false">https://xxx.com/posts/dummy-post</guid><pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;You know, this is dummy.&lt;/p&gt;
+&lt;p&gt;But another blah.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Another para&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Its magic!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/trello-gtd/06.png&quot; alt=&quot;“Something.”&quot; title=&quot;“Something.”&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
