@@ -4,7 +4,7 @@ import data from './data.json'
 
 const Experience = () => (
   <>
-    <h3 id="experience" className="text-center mt-10 mb-5">Work experience</h3>
+    <Card><div id="experience" className="text-black text-4xl text-center mt-5 mb-2">Work experience</div></Card>
     <Card className="work-experience rounded-lg">
       {data.workExperience.map((item, i) => (
         <Row type="flex" justify="space-around" key={item.company.name}>
@@ -13,7 +13,7 @@ const Experience = () => (
           </Divider>
           <Col span={4} className="hide-mobile">
             {item.company.logo ? (
-              <div className="mt-10 ml-10 xl:ml-20">
+              <div className="mt-10 xl:ml-20">
                 <img
                   src={`/companies/${item.company.logo}`}
                   alt={item.company.name}
@@ -51,13 +51,13 @@ const Experience = () => (
                   <div className="py-1">
                     {project.stack.me &&
                       project.stack.me.map(tech => (
-                        <Tag color="#285e61" key={tech} className="mb-1 text-md">
+                        <Tag color="#553C9A" key={tech} className="mb-1 text-md">
                           {tech}
                         </Tag>
                       ))}
                     {project.stack.all &&
                       project.stack.all.map(tech => (
-                        <Tag color="#595959" key={tech} className="mb-1 text-md">
+                        <Tag color="#90A4AE" key={tech} className="mb-1 text-md">
                           {tech}
                         </Tag>
                       ))}

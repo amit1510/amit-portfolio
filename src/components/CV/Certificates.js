@@ -4,7 +4,7 @@ import data from './data.json'
 
 const Certificates = () => (
   <>
-    <h3 className="text-center mt-1 mb-0">Certificates & Courses</h3>
+    <Card><div className="text-black text-4xl text-center mt-5 mb-2">Certificates & Courses</div></Card>
     <Card className="rounded-lg">
       {data.certificates.map((activity, i) => (
         <Row type="flex" justify="space-around" key={activity.place} className="text-lg">

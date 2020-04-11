@@ -80,6 +80,10 @@ img {
   width: 100%;
 }
 
+.headings{
+  border: #bbb;
+}
+
 .post {
   padding: 5% 7% 0%;
 }
@@ -140,13 +144,8 @@ img {
   .projects img {
     height: 15px;
   }
-
-  .side-container {
-  }
   
   .main-container {
-    /* position: relative; */
-    /* left: 100%; */
     max-width: 100%;
   }
 }
@@ -164,6 +163,6 @@ img {
   .main-container {
     position: relative;
     left: 23%;
-    max-width: 75%;
+    max-width: 76%;
   }
 }

@@ -10,25 +10,31 @@ import Certificates from './Certificates'
 import Education from './Education'
 import Projects from './Projects'
 import Footer from './Footer'
+import { useSiteMetadata } from '../../hooks'
 
 const { Content } = Layout
 
-const CV = () => (
-  <>
-    <Sidebar hideMobile={true} />
-    <Content className="m-5 main-container">
-      <Header />
-      <PitchLine />
-      {/* <TopSkills /> */}
-      <SkillList />
-      <Experience />
-      <Projects />
-      <Education />
-      <Certificates />
-      <Footer />
-    </Content>
-    <BackTop />
-  </>
-)
+const CV = () => {
+  const { author } = useSiteMetadata()
+
+  return (
+    <>
+      <Sidebar hideMobile={true} />
+      <Content className="m-2 main-container">
+        <Header />
+        <PitchLine />
+        {/* <TopSkills /> */}
+        <SkillList />
+        <Experience />
+        <Projects />
+        <Education />
+        <Certificates />
+        <Footer contacts={author.contacts} />
+      </Content>
+      <BackTop />
+    </>
+  )
+}
+
 
 export default CV

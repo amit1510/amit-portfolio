@@ -4,7 +4,7 @@ import data from './data.json'
 
 const Education = () => (
   <>
-    <h3 id="education" className="text-center mt-1 mb-0">Education</h3>
+    <Card><div id="education" className="text-black text-4xl text-center mt-5 mb-2">Education</div></Card>
     <Card className="education rounded-lg">
       {data.education.map((institution, i) => (
         <Row

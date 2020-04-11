@@ -1,39 +1,41 @@
 import React from 'react'
-import { Row, Col, Button } from 'antd'
-import { FilePdfOutlined } from '@ant-design/icons';
+import { Card, Row, Col } from 'antd'
 
 const Header = () => (
   <>
     <div id="top"></div>
-    <Row type="flex" justify="space-around" align="middle">
-      <Col span={4} className="text-right">
-        <span className="hide-desktop">
-          <a href="/">
-            <img
-              src="/photo.jpg"
-              alt="Amit Singh"
-              width={80}
-              className="rounded-full max-w-3/4"
-            />
-          </a>
-        </span>
-      </Col>
-      <Col span={16} className="text-center">
-        <h1 >Amit Singh</h1>
-        <h4>C# Developer | CSM</h4>
-        <div>Singapore</div>
-        <div>
-          Linkedin:{' '}
-          <a href="https://www.linkedin.com/in/amit1510/" target="_blank" rel="noopener noreferrer">
-            amit1510
-        </a>
-        </div>
-        <div>
-          github: <a href="https://github.com/amit1510">amit1510</a>
-        </div>
-      </Col>
-      <Col span={4}></Col>
-    </Row>
+    <Card className="border-0">
+      <Row type="flex" justify="space-around" align="middle">
+        <Col span={4} className="text-right">
+          <span className="ml-10 hide-desktop">
+            <a href="/">
+              <img
+                src="/photo.jpg"
+                alt="Amit Singh"
+                width={80}
+                className="rounded-full max-w-3/4"
+              />
+            </a>
+          </span>
+        </Col>
+        <Col span={16} className="text-center">
+          <div className="text-black text-center pt-5">
+            <div className="text-4xl">Amit Singh</div>
+            <div className="text-3xl">C# Developer | CSM</div>
+            <div>Singapore</div>
+            <div>
+              Linkedin:{' '}
+              <a href="https://www.linkedin.com/in/amit1510/" target="_blank" rel="noopener noreferrer">amit1510</a>
+            </div>
+            <div>
+              github: <a href="https://github.com/amit1510">amit1510</a>
+            </div>
+            <div>Email: <a href="mailto:amit1510@gmail.com">amit1510@gmail.com</a></div>
+          </div>
+        </Col>
+        <Col span={4}></Col>
+      </Row>
+    </Card>
   </>
 )
 
