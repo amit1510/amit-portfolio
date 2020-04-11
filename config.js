@@ -1,5 +1,5 @@
 module.exports = {
-  url: 'https://xxx.com',
+  url: 'https://amit-portfolio.netlify.com/',
   pathPrefix: '/',
   title: 'Amit Singh - Portfolio',
   keywords:

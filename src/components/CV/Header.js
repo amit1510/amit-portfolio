@@ -7,13 +7,13 @@ const Header = () => (
     <Card className="border-0">
       <Row type="flex" justify="space-around" align="middle">
         <Col span={4} className="text-right">
-          <span className="ml-10 hide-desktop">
+          <span className="ml-8 hide-desktop">
             <a href="/">
               <img
                 src="/photo.jpg"
                 alt="Amit Singh"
-                width={80}
-                className="rounded-full max-w-3/4"
+                width={90}
+                className="rounded-full"
               />
             </a>
           </span>
